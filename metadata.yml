@@ -6,4 +6,5 @@ version: 0.1
 type: query
 main_module: main.py
 url: http://www.flor-id.org
+icon: florid_logo.png
 description: 'Adapter between FLOR-ID and Araport'
