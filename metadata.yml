@@ -4,28 +4,7 @@
 name: florid_adapter
 version: 0.1
 type: query
+icon: florid_logo.png
 main_module: main.py
 url: http://www.flor-id.org
-icon: florid_logo.png
 description: 'Adapter between FLOR-ID and Araport'
-
-tags:
-	- development
-
-endpoints:
-  /search:
-    description: 'Returns a JSON objects containing data about the flowering phenotyping and gene interactors of a specific gene.'
-    parameters:
-      - name: locus_id
-        description: AGI Transcript Identifier.
-        type: string
-        required: true
-        default: AT5G15840
-  /list:
-    description: 'Returns a list of locus IDs that FLOR-ID has data for.'
-
-authors:
-  - name: Guillaume Lobet
-    email: guillaume.lobet@ulg.ac.be
-    sponsor_organization: University of Liège
-    sponsor_uri: http://www.ulg.ac.be/
