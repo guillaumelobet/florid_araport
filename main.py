@@ -21,10 +21,10 @@ def search(arg):
         return
 
     param = '[{%22agi%22:%22' + locus + '%22}]'
-    r = requests.get('http://www.phytosystems.ulg.ac.be/florid/interactions/?gene=' + param + '&type=xml')
+    r = requests.get('http://www.phytosystems.ulg.ac.be/florid/details?gene=' + param + '&type=json')
     
     # print r.headers['Content-Type']
-    # print r.text
+    print r.text
     
     if r.ok:
        return r.headers['Content-Type'], r.content

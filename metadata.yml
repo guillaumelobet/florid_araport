@@ -8,6 +8,8 @@ icon: florid_logo.png
 main_module: main.py
 url: http://www.flor-id.org
 description: 'Adapter between FLOR-ID and Araport'
+whitelist: 
+	- www.phytosystems.ulg.ac.be/florid
 
 tags:
 	- development
@@ -16,7 +18,7 @@ endpoints:
   /search:
     description: 'Returns a JSON objects containing data about the flowering phenotyping and gene interactors of a specific gene.'
     parameters:
-      - name: locus_id
+      - name: locus
         description: AGI Transcript Identifier.
         type: string
         required: true
