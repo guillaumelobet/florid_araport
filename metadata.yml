@@ -23,3 +23,9 @@ endpoints:
         default: AT5G15840
   /list:
     description: 'Returns a list of locus IDs that FLOR-ID has data for.'
+
+authors:
+  - name: Guillaume Lobet
+    email: guillaume.lobet@ulg.ac.be
+    sponsor_organization: University of Liège
+    sponsor_uri: http://www.ulg.ac.be/
