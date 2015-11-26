@@ -14,6 +14,12 @@ whitelist:
 tags:
 	- development
 
+authors:
+  - name: Guillaume Lobet
+    email: guillaume.lobet@ulg.ac.be
+    sponsor_organization: University of Liège
+    sponsor_uri: http://www.ulg.ac.be/
+
 endpoints:
   /search:
     description: 'Returns a JSON objects containing data about the flowering phenotyping and gene interactors of a specific gene.'
@@ -26,8 +32,10 @@ endpoints:
   /list:
     description: 'Returns a list of locus IDs that FLOR-ID has data for.'
 
-authors:
-  - name: Guillaume Lobet
-    email: guillaume.lobet@ulg.ac.be
-    sponsor_organization: University of Liège
-    sponsor_uri: http://www.ulg.ac.be/
+sources:
+  - title: FLOR-ID
+    description: 'FLOR-ID contains information on Arabidopsis flowering networks.'
+    uri: http://www.flor-id.org/
+    provider_name: Guillaume Lobet
+    sponsor_organization_name: University of Liège
+    sponsor_uri: https://www.ulg.ac.be

@@ -24,10 +24,9 @@ def search(arg):
     r = requests.get('http://www.phytosystems.ulg.ac.be/florid/details?gene=' + param + '&type=json')
     
     # print r.headers['Content-Type']
-    print r.text
     
     if r.ok:
-       return r.headers['Content-Type'], r.content
+           print r.json()
     else:
         return 'text/plaintext; charset=ISO-8859-1', 'An error occurred on the remote server'
 
