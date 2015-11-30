@@ -9,10 +9,10 @@ main_module: main.py
 url: http://www.flor-id.org
 description: 'Adapter between FLOR-ID and Araport'
 whitelist: 
-	- www.phytosystems.ulg.ac.be/florid
+  - www.phytosystems.ulg.ac.be/florid
 
 tags:
-	- development
+  - development
 
 authors:
   - name: Guillaume Lobet
