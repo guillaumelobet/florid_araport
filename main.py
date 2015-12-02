@@ -26,7 +26,7 @@ def search(arg):
     # print r.headers['Content-Type']
     
     if r.ok:
-           print r
+           print r.json()
     else:
         return 'text/plaintext; charset=ISO-8859-1', 'An error occurred on the remote server'
 
