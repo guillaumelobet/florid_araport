@@ -20,12 +20,11 @@ def search(arg):
     if not p.search(locus):
         return
 
-    r = requests.get('http://www.phytosystems.ulg.ac.be/florid/details?gene=' + locus + '&type=json')
-    
-    # print r.headers['Content-Type']
+    url = 'http://www.phytosystems.ulg.ac.be/florid/details?gene=' + locus + '&type=json'
+    r = requests.get(url) 
     
     if r.ok:
-        print r
+        print r.json()
         print '---'
     else:
         return 'text/plaintext; charset=ISO-8859-1', 'An error occurred on the remote server'
