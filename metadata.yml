@@ -2,7 +2,7 @@
 
 ---
 name: florid_adapter
-version: 0.22
+version: 0.23
 type: query
 icon: florid_logo.png
 main_module: main.py
