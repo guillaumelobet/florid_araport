@@ -20,13 +20,13 @@ def search(arg):
     if not p.search(locus):
         return
 
-    param = '[{%22agi%22:%22' + locus + '%22}]'
-    r = requests.get('http://www.phytosystems.ulg.ac.be/florid/details?gene=' + param + '&type=json')
+    r = requests.get('http://www.phytosystems.ulg.ac.be/florid/details?gene=' + locus + '&type=json')
     
     # print r.headers['Content-Type']
     
     if r.ok:
-        return r.json()
+        print r.json()
+        print '---'
     else:
         return 'text/plaintext; charset=ISO-8859-1', 'An error occurred on the remote server'
 
