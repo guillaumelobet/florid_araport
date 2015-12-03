@@ -2,7 +2,7 @@
 
 ---
 name: florid_adapter
-version: 0.231
+version: 0.232
 type: query
 icon: florid_logo.png
 main_module: main.py
@@ -14,6 +14,9 @@ whitelist:
 
 tags:
   - development
+  - flowering
+  - interactive
+  - interactions
 
 authors:
   - name: Guillaume Lobet
