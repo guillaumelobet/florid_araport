@@ -2,7 +2,7 @@
 
 ---
 name: florid_adapter
-version: 0.21
+version: 0.22
 type: query
 icon: florid_logo.png
 main_module: main.py
@@ -10,6 +10,7 @@ url: http://www.flor-id.org
 description: 'Adapter between FLOR-ID and Araport'
 whitelist: 
   - www.flor-id.org
+  - www.phytosystems.ulg.ac.be
 
 tags:
   - development
