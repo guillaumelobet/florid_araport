@@ -24,7 +24,7 @@ def search(arg):
     r = requests.get(url) 
     
     if r.ok:
-        print r.json()
+        print r.content
         print '---'
     else:
         return 'text/plaintext; charset=ISO-8859-1', 'An error occurred on the remote server'
