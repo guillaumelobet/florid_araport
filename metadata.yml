@@ -2,7 +2,7 @@
 
 ---
 name: florid_adapter
-version: 0.233
+version: 1.0
 type: query
 icon: florid_logo.png
 main_module: main.py
@@ -13,9 +13,7 @@ whitelist:
   - www.phytosystems.ulg.ac.be
 
 tags:
-  - development
   - flowering
-  - interactive
   - interactions
 
 authors:
